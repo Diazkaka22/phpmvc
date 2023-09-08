@@ -12,13 +12,16 @@
   <div class="collapse navbar-collapse" id="navbarNav" style="
   margin-left:8%;
   ">
-  <a class="navbar-brand" href="<?= BASE_URL; ?>/home" style="
+  <a class="navbar-brand" href="#" style="
   margin-bottom: 2px;
-  ">Home</a>
+  ">SMKN 2 TRENGGALEK</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
     <ul class="navbar-nav">
+    <li class="nav-item active">
+        <a class="nav-link" href="<?= BASE_URL; ?>/home">Home</a>
+      </li>
       <li class="nav-item active">
         <a class="nav-link" href="<?= BASE_URL; ?>/blog">Kompetensi Keahlian <span class="sr-only">(current)</span></a>
       </li>
